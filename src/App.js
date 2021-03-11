@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import Overview from './component/Overview'
 
 class App extends Component{
   constructor(){
@@ -41,6 +42,7 @@ class App extends Component{
           Add Task
         </button>
       </form>
+      <Overview  tasks={tasks}/>
     </div>
     ) 
     
